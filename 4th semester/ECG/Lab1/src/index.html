@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Лабораторная работа №1</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="controls">
+      <div class="form">
+        <h3>Настройки</h3>
+        <table class="controls">
+          <tbody>
+            <tr>
+              <td>X:&nbsp;</td>
+              <td><input id="x-range" type="range" min="-50" max="50" step="1" value="0"/></td>
+              <td id="x-val">0</td>
+            </tr>
+            <tr>
+              <td>Y:&nbsp;</td>
+              <td><input id="y-range" type="range" min="-50" max="50" step="1" value="0"/></td>
+              <td id="y-val">0</td>
+            </tr>
+            <tr>
+              <td>Z:&nbsp;</td>
+              <td><input id="z-range" type="range" min="-50" max="50" step="1" value="0"/></td>
+              <td id="z-val">0</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="controls">
+          <tbody>
+            <tr>
+              <td>Масштаб:&nbsp;</td>
+              <td><input id="scaler" type="range" min="1.0" max="2.0" value="1.0" step="0.1"/></td>
+            </tr>
+            <tr>
+              <td>Октант:&nbsp;</td>
+              <td style="text-align: left;" id="oct"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form">
+        <h3>Легенда</h3>
+        <table class="legend">
+          <thead>
+            <th>Ось</th>
+            <th>Линия</th>
+            <th>Точка</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>X</td>
+              <td id="x-line"></td>
+              <td id="x-point"></td>
+            </tr>
+            <tr>
+              <td>Y</td>
+              <td id="y-line"></td>
+              <td id="y-point"></td>
+            </tr>
+            <tr>
+              <td>Z</td>
+              <td id="z-line"></td>
+              <td id="z-point"></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="legend">
+          <tbody>
+            <thead>
+              <th>Плоскость</th>
+              <th>Точка</th>
+            </thead>
+            <tr>
+              <td>XY</td>
+              <td id="xy-point"></td>
+            </tr>
+            <tr>
+              <td>XZ</td>
+              <td id="xz-point"></td>
+            </tr>
+            <tr>
+              <td>YZ</td>
+              <td id="yz-point"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="display">
+      <div id="3d" class="elem">
+      </div>
+      <div id="2d" class="elem">
+      </div>
+    </div>
+    <script src="svg.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

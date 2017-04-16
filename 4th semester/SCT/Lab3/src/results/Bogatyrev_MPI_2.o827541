@@ -1,0 +1,23 @@
+Tue Mar 28 10:42:47 YEKT 2017
+n5104.nodes
+n5105.nodes
+Calculating series...
+Calculating on process 0...
+sum0 = 2.053333
+Receiving from proccess 1... Done! part = 0.002123
+Receiving from proccess 2... Done! part = 0.001169
+Receiving from proccess 3... Done! part = 0.000799
+Receiving from proccess 4... Done! part = 0.000604
+Receiving from proccess 5... Done! part = 0.000483
+Receiving from proccess 6... Done! part = 0.000401
+Receiving from proccess 7... Done! part = 0.000343
+Receiving from proccess 8... Done! part = 0.000298
+Receiving from proccess 9... Done! part = 0.000264
+Receiving from proccess 10... Done! part = 0.000236
+Receiving from proccess 11... Done! part = 0.000214
+Receiving from proccess 12... Done! part = 0.000195
+Receiving from proccess 13... Done! part = 0.000179
+Receiving from proccess 14... Done! part = 0.000166
+Receiving from proccess 15... Done! part = 0.000154
+sum = 2.060963
+Time spent: 0.844409

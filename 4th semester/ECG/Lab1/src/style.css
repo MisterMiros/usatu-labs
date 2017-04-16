@@ -1,0 +1,182 @@
+/* SVG Rules */
+
+g.x > * {
+  stroke: red;
+  fill: red;
+}
+
+g.y > * {
+  stroke: green;
+  fill: green;
+}
+
+g.z > * {
+  stroke: blue;
+  fill: blue;
+}
+
+.arrow {
+  stroke-width: 0px;
+}
+
+.line {
+  stroke: black;
+  stroke-width: 0.5;
+  fill: none;
+}
+
+.line.x {
+  stroke: red;
+}
+
+.line.y {
+  stroke: green;
+}
+
+.line.z {
+  stroke: blue;
+}
+
+.line.dashed {
+  stroke-dasharray: 2,2;
+}
+
+.line.thick {
+    stroke-width: 0.25;
+}
+
+.line.pointed {
+  stroke-dasharray: 0.5,0.5;
+}
+
+.point {
+  stroke: black;
+  stroke-width: 0.2;
+  fill: white;
+}
+
+.point.x {
+  fill: red;
+}
+
+.point.y {
+  fill: green;
+}
+
+.point.z {
+  fill: blue;
+}
+
+.point.xy {
+  fill: yellow;
+}
+
+.point.xz {
+  fill: magenta;
+}
+
+.point.yz {
+  fill: cyan;
+}
+
+svg text {
+  font-family: serif;
+  font-style: italic;
+  font-size: 0.3em;
+}
+
+/* HTML Rules */
+
+* {
+  box-sizing: border-box;
+}
+
+.display {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px gainsboro;
+}
+
+.display .elem {
+  width: 50%;
+  border: 1px solid lightgray;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.display .elem:not(:last-child) {
+    border-right: none;
+}
+
+.display .elem  svg {
+  display: block;
+}
+
+#controls {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form {
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 2px gainsboro;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.controls td {
+  text-align: right;
+}
+
+table.controls {
+    display: inline-table;
+}
+
+table.legend {
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-table;
+}
+
+.form > :not(:last-child):not(h3) {
+    border-right: 1px solid gainsboro;
+}
+
+table.legend td, table.legend th {
+    padding: 1px 6px;
+}
+
+table.legend td:not(:last-child), table.legend th:not(:last-child)  {
+    border-right: 1px solid gainsboro;
+}
+
+table.legend svg {
+    display: inline-block;
+}
+
+table.controls td:first-child {
+    text-align: right;
+}
+
+.form h3 {
+    margin: 0px 0px 5px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+
+td[id$="-val"] {
+    width: 25px;
+    text-align: center;
+}

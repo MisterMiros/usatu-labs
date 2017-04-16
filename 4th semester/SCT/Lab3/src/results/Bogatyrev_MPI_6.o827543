@@ -1,0 +1,59 @@
+Tue Mar 28 10:43:16 YEKT 2017
+n3110.nodes
+n3111.nodes
+n3113.nodes
+n5101.nodes
+n5104.nodes
+n5105.nodes
+Calculating series...
+Calculating on process 0...
+sum0 = 2.049607
+Receiving from proccess 1... Done! part = 0.002406
+Receiving from proccess 2... Done! part = 0.001320
+Receiving from proccess 3... Done! part = 0.000901
+Receiving from proccess 4... Done! part = 0.000679
+Receiving from proccess 5... Done! part = 0.000543
+Receiving from proccess 6... Done! part = 0.000451
+Receiving from proccess 7... Done! part = 0.000384
+Receiving from proccess 8... Done! part = 0.000334
+Receiving from proccess 9... Done! part = 0.000296
+Receiving from proccess 10... Done! part = 0.000265
+Receiving from proccess 11... Done! part = 0.000239
+Receiving from proccess 12... Done! part = 0.000218
+Receiving from proccess 13... Done! part = 0.000200
+Receiving from proccess 14... Done! part = 0.000185
+Receiving from proccess 15... Done! part = 0.000172
+Receiving from proccess 16... Done! part = 0.000161
+Receiving from proccess 17... Done! part = 0.000150
+Receiving from proccess 18... Done! part = 0.000142
+Receiving from proccess 19... Done! part = 0.000134
+Receiving from proccess 20... Done! part = 0.000126
+Receiving from proccess 21... Done! part = 0.000120
+Receiving from proccess 22... Done! part = 0.000114
+Receiving from proccess 23... Done! part = 0.000109
+Receiving from proccess 24... Done! part = 0.000104
+Receiving from proccess 25... Done! part = 0.000099
+Receiving from proccess 26... Done! part = 0.000095
+Receiving from proccess 27... Done! part = 0.000091
+Receiving from proccess 28... Done! part = 0.000088
+Receiving from proccess 29... Done! part = 0.000085
+Receiving from proccess 30... Done! part = 0.000082
+Receiving from proccess 31... Done! part = 0.000079
+Receiving from proccess 32... Done! part = 0.000076
+Receiving from proccess 33... Done! part = 0.000074
+Receiving from proccess 34... Done! part = 0.000071
+Receiving from proccess 35... Done! part = 0.000069
+Receiving from proccess 36... Done! part = 0.000067
+Receiving from proccess 37... Done! part = 0.000065
+Receiving from proccess 38... Done! part = 0.000063
+Receiving from proccess 39... Done! part = 0.000061
+Receiving from proccess 40... Done! part = 0.000060
+Receiving from proccess 41... Done! part = 0.000058
+Receiving from proccess 42... Done! part = 0.000057
+Receiving from proccess 43... Done! part = 0.000055
+Receiving from proccess 44... Done! part = 0.000054
+Receiving from proccess 45... Done! part = 0.000053
+Receiving from proccess 46... Done! part = 0.000051
+Receiving from proccess 47... Done! part = 0.000050
+sum = 2.060963
+Time spent: 0.301295

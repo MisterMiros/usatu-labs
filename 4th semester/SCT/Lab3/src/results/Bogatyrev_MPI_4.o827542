@@ -1,0 +1,41 @@
+Tue Mar 28 10:43:02 YEKT 2017
+n3110.nodes
+n3111.nodes
+n3113.nodes
+n5101.nodes
+Calculating series...
+Calculating on process 0...
+sum0 = 2.051038
+Receiving from proccess 1... Done! part = 0.002295
+Receiving from proccess 2... Done! part = 0.001261
+Receiving from proccess 3... Done! part = 0.000861
+Receiving from proccess 4... Done! part = 0.000650
+Receiving from proccess 5... Done! part = 0.000519
+Receiving from proccess 6... Done! part = 0.000431
+Receiving from proccess 7... Done! part = 0.000368
+Receiving from proccess 8... Done! part = 0.000320
+Receiving from proccess 9... Done! part = 0.000283
+Receiving from proccess 10... Done! part = 0.000254
+Receiving from proccess 11... Done! part = 0.000229
+Receiving from proccess 12... Done! part = 0.000209
+Receiving from proccess 13... Done! part = 0.000192
+Receiving from proccess 14... Done! part = 0.000178
+Receiving from proccess 15... Done! part = 0.000165
+Receiving from proccess 16... Done! part = 0.000154
+Receiving from proccess 17... Done! part = 0.000144
+Receiving from proccess 18... Done! part = 0.000136
+Receiving from proccess 19... Done! part = 0.000128
+Receiving from proccess 20... Done! part = 0.000121
+Receiving from proccess 21... Done! part = 0.000115
+Receiving from proccess 22... Done! part = 0.000110
+Receiving from proccess 23... Done! part = 0.000104
+Receiving from proccess 24... Done! part = 0.000100
+Receiving from proccess 25... Done! part = 0.000095
+Receiving from proccess 26... Done! part = 0.000091
+Receiving from proccess 27... Done! part = 0.000088
+Receiving from proccess 28... Done! part = 0.000084
+Receiving from proccess 29... Done! part = 0.000081
+Receiving from proccess 30... Done! part = 0.000078
+Receiving from proccess 31... Done! part = 0.000076
+sum = 2.060963
+Time spent: 0.439005
