@@ -1,0 +1,2 @@
+Haskell is Great
+No Haskell
