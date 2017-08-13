@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Лабораторная работа №3</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h2>Отрисовка линии</h2>
+    <div id="controls">
+      <div class="form">
+        <h3>Прямая</h3>
+        <table class="controls">
+          <tbody>
+            <tr>
+              <td>X1:&nbsp;</td>
+              <td><input id="ax-range" type="range" min="0" max="50" step="1" value="0"/></td>
+              <td id="ax-val">0</td>
+              <td>X2:&nbsp;</td>
+              <td><input id="bx-range" type="range" min="0" max="50" step="1" value="10"/></td>
+              <td id="bx-val">10</td>
+            </tr>
+            <tr>
+              <td>Y1:&nbsp;</td>
+              <td><input id="ay-range" type="range" min="0" max="50" step="1" value="0"/></td>
+              <td id="ay-val">0</td>
+              <td>Y2:&nbsp;</td>
+              <td><input id="by-range" type="range" min="0" max="50" step="1" value="10"/></td>
+              <td id="by-val">10</td>
+            </tr>
+            <tr>
+              <td>Z1:&nbsp;</td>
+              <td><input id="az-range" type="range" min="0" max="50" step="1" value="0"/></td>
+              <td id="az-val">0</td>
+              <td>Z2:&nbsp;</td>
+              <td><input id="bz-range" type="range" min="0" max="50" step="1" value="10"/></td>
+              <td id="bz-val">10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form">
+        <h3>Точка наблюдения Cz</h3>
+        <table class="controls">
+          <tbody>
+            <tr>
+              <td>Z:&nbsp;</td>
+              <td><input id="observe" type="range" min="1" max="50" step="1" value="20"/></td>
+              <td id="observe-val">20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form">
+        <h3>Настройки</h3>
+        <table class="controls">
+          <tbody>
+            <tr>
+              <td>Масштаб:&nbsp;</td>
+              <td><input id="scaler" type="range" min="1.0" max="2.0" value="1.0" step="0.1"/></td>
+            </tr>
+            <tr>
+              <td>Сдвиг:&nbsp;</td>
+              <td><input id="move" type="range" min="-50" max="50" value="0" step="1"/></td>
+              <td id="move-val">0</td>
+            </tr>
+            <tr>
+              <td>Поворот:&nbsp;</td>
+              <td><input id="rotate" type="range" min="0" max="360" value="0" step="1"/></td>
+              <td id="rotate-val">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form">
+        <h3>Легенда</h3>
+        <table class="legend">
+          <thead>
+            <th>Ось</th>
+            <th>Линия</th>
+            <th>Точка</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>X</td>
+              <td id="x-line"></td>
+              <td id="x-point"></td>
+            </tr>
+            <tr>
+              <td>Y</td>
+              <td id="y-line"></td>
+              <td id="y-point"></td>
+            </tr>
+            <tr>
+              <td>Z</td>
+              <td id="z-line"></td>
+              <td id="z-point"></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="legend">
+          <tbody>
+            <thead>
+              <th>Плоскость</th>
+              <th>Линия</th>
+              <th>Точка</th>
+            </thead>
+            <tr>
+              <td>XY</td>
+              <td id="xy-line"></td>
+              <td id="xy-point"></td>
+            </tr>
+            <tr>
+              <td>XZ</td>
+              <td id="xz-line"></td>
+              <td id="xz-point"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>YZ</td>
+              <td id="yz-line"></td>
+              <td id="yz-point"></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="display">
+      <div id="3d" class="elem">
+      </div>
+      <div id="POV" class="elem">
+      </div>
+    </div>
+    <script src="svg.min.js"></script>
+    <script src="math.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
